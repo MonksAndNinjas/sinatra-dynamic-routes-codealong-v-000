@@ -20,6 +20,6 @@ class App < Sinatra::Base
   end
 
   get "/multiply/:num1/:num2" do
-    "text"
+    "#{6*6}"
   end
 end
